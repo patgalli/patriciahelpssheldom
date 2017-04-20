@@ -1,26 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <head>
-    <title>NodeJS Starter Application</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheets/style.css">
-  </head>
+<title>Sheldon COOPER - Físico Dotado - Geek cualificado</title>
 
-  <body>
-    <table>
-      <tr>
-        <td style= "width:30%;">
-          <img class = "newappIcon" src="images/newapp-icon.png">
-        </td>
-        <td>
-          <h1 id="message">Hello World!</h1>
-          <p class='description'></p> Thanks for creating a <span class = "blue">NodeJS Starter Application</span>.
-        </td>
-      </tr>
-    </table>
-  </body>
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-</html>
+<!-- Fichiers CSS -->
+<link rel="stylesheet" href="mycv_files/reset.css">
+<!--[if lt IE 9]> 
+	<link rel="stylesheet" href="css/cv.css" media="screen">
+<![endif]-->
+<link rel="stylesheet" media="screen and (max-width:480px)" href="mycv_files/mobile.css">
+<link rel="stylesheet" media="screen and (min-width:481px)" href="mycv_files/cv.css">
+<link rel="stylesheet" media="print" href="mycv_files/print.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1>Sheldon COOPER</h1>
+					<h2>Físico Dotado - Geek cualificado</h2>
+				</hgroup>
+
+				<figure>
+					<img src="mycv_files/avatar.jpg" alt="Sheldon COOPER">
+				</figure>
+		</div>
+	</header>
+	
+	<!-- Contact -->
+	<section class="contactform clearfix">
+		<div class="container_16">
+			<h3>Contáctame</h3>
+			<p>Completa el siguiente formulario para enviarme un mensaje. Responderé en el menor tiempo posible.
+			<br><em>Todos los campos requeridos.</em></p>
+			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="Tu mensaje" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="nom" placeholder="Apellido - Nombre" class="required" type="text">
+					<input name="email" placeholder="Email" class="required" type="email">	
+					<input name="envoi" value="Enviar el mensaje" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+	
+	<!-- Corps -->
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<!-- A propos -->
+			<div class="grid_8 apropos">
+				<h3>Perfil</h3>
+				<p>Nació en Texas y desde muy pequeño demostró ser un niño poco común, su inteligencia y curiosidad le llevó a crear un robot con circuitos integrados utilizando el horno de juguete de su hermana melliza Missy.</p>
+
+				<p>Posee un C.I. de 187 y memoria eidética. Ganó el premio Stevenson a los catorce años y medio, además del premio Canciller de ciencia. Tiene dos doctorados y un máster. Obtuvo su primer doctorado a los 15 años. Da por supuesto que algún año ganará el Premio Nobel.</p>
+
+				<p>Actualmente es físico teórico y trabaja en el Instituto de Tecnología de California junto a sus compañeros Howard Wolowitz, Rajesh Ramayan Koothrappali y Leonard Hofstadter.</p>
+			</div>
+			
+			<!-- Compétences -->
+			<div class="grid_8 competences">
+				<h3>Habilidades</h3>
+				<ul class="barres">
+					<li data-skills="80">Curioso<span style="width: 80%;"></span></li>
+					<li data-skills="60">Mentalmente alerta<span style="width: 60%;"></span></li>
+					<li data-skills="75">Inteligencia muy aguda<span style="width: 75%;"></span></li>
+					<li data-skills="40">Desconexión y desapego emocional<span style="width: 40%;"></span></li>
+					<li data-skills="95">Falta de empatía<span style="width: 95%;"></span></li>
+				</ul>
+			</div>
+		</div>
+		
+			<!-- Expériences -->
+			<div class="grid_16 experiences">
+				<h3>Experiencia</h3>
+				<ul>
+					<li>
+						<h4><strong>Físico Teórico e Investigador</strong> Instituto Tecnológico de California</h4>
+						<span class="lieu">California</span>
+						<span class="dates">2011 - Presente</span>
+						<p>
+						El Dr. Sheldon Cooper es un ex-físico teórico de partículas en el Instituto de Tecnología de California, centrándose en la teoría de cuerdas y su alter ego M-teoría. Él llevó a cabo esta posición por tres años y medio en el principio de la demostración y hasta hasta la octava estación. Como se le pagaba en virtud de una subvención para investigar específicamente la teoría de cuerdas, que es luego promovido a profesor subalterno con el fin de cambiar su campo de estudio a la materia oscura, con la condición de que enseñe una clase de posgrado en mecánica analítica. Anteriormente, fue profesor visitante en el Instituto de Heidelberg en Alemania a la edad de quince años y examinó las amplitudes perturbativas en N = 4 teorías supersimétricas llevando a un nuevo examen de las propiedades ultravioleta de multiloop N = 8 supergravity utilizando la teoría moderna twistor a la edad de dieciséis años. Su doodle de una superficie hiperiemptica de Riemann fue la base de su beca postdoctoral. Él cree que la teoría de cuerdas une mejor la mecánica cuántica con la relatividad general que la gravedad cuántica del bucle. No da credibilidad a la noción de que el espacio-tiempo cuantificado se manifestará como diferencias minuciosas en la velocidad de la luz para diferentes colores (ya que espera que la materia consista en pequeñas cuerdas), ni que sólo la gravedad cuántica del bucle calcula la entropía de los agujeros negros. Sin embargo, él es el único responsable de los cálculos cuánticos de gravedad cuántica de seis bucles de la universidad.</p>
+					</li>
+				</ul>
+			</div>
+		
+			<!-- Formations -->
+			<div class="grid_16 formations">
+				<h3>Estudios</h3>
+				<ul>
+					<li>
+						<h4><strong>Físico Teórico de Partículas / Físico Teórico</strong> Instituto de Tecnología de California</h4>
+						<span class="lieu">California</span>
+						<span class="dates">2007 - 2011</span>
+						<p>La física teórica constituye la rama de la física que elabora teorías y modelos usando el lenguaje matemático con el fin de explicar y comprender fenómenos físicos, aportando las herramientas necesarias no solo para el análisis sino para la predicción del comportamiento de los sistemas físicos. El objetivo de la física teórica es comprender el universo elaborando unos modelos matemáticos y conceptuales de la realidad que se utiliza para racionalizar, explicar y predecir los fenómenos de la naturaleza, planteando una teoría física de la realidad.</p>
+					</li>
+				</ul>
+			</div>
+		
+			<!-- Loisirs -->
+			<div class="grid_8 loisirs">
+				<h3>Hobbies</h3>
+				<p><strong>Libros de cómics :</strong> si practicas esto puedes acercarte a 50 metros.</p>
+				<p><strong>Video juegos :</strong> todos los días antes de almorzar hace un lan-party.</p>
+				<p><strong>Programas de TV Sci-Fi :</strong> Sus favoritos son Battlestar Galáctica, Doctor Who, Star Trek y Firefly.</p>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 contact">
+				<h3>Contacto</h3>
+				<p>Si mi perfil le interesa, no dude en ponerse en contacto conmigo :</p>
+				<ul>
+					<li class="lieu">California, Estados Unidos</li>
+					<li class="phone">06 00 00 00 00</li>
+					<li class="mail"><a href="mailto:Sheldon@email.com">Sheldon@email.com</a></li>
+					<li class="site"><a href="http://www.sheldonsite.com/">www.sheldonsite.com</a></li>
+					<li class="form"><a class="toContactform">A través de formulario de contacto personal</a></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- Scripts JavaScript -->
+<script src="mycv_files/jquery-1.js"></script>
+<script src="mycv_files/validate.js"></script>
+<!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]-->
+<script src="mycv_files/plugins.js"></script>
+
+</body></html>
